@@ -1,98 +1,79 @@
-# DevChallenges.io - Simple FAQ Page
+<!-- Please update value in the {}  -->
 
-![Thumbnail for the Simple FAQ Page coding challenge](./thumbnail.jpg)
+<h1 align="center">Simple FAQ | devChallenges</h1>
 
-## Welcome! 👋
+<div align="center">
+   Solution for a challenge <a href="https://devchallenges.io/challenge/simple-faq-challenge" target="_blank">Simple FAQ</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+</div>
 
-Welcome to this responsive web coding challenge.
+<div align="center">
+  <h3>
+    <a href="{https://your-demo-link.your-domain}">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="{https://your-url-to-the-solution}">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/simple-faq-challenge">
+      Challenge
+    </a>
+  </h3>
+</div>
 
-[devChallenges.io](https://devchallenges.io/) challenges are designed to help you enhance your coding skills by building realistic projects.
+<!-- TABLE OF CONTENTS -->
 
-**Suggested Skills to practice: HTML and CSS**
+## Table of Contents
 
-## The challenge
+- [Overview](#overview)
+  - [What I learned](#what-i-learned)
+- [Built with](#built-with)
+- [Features](#features)
+- [Contact](#contact)
 
-Your task is to create a web page that closely resembles the provided design.
+<!-- OVERVIEW -->
 
-You can use any tools or resources you like to complete this challenge. Each challenge is designed to practice different skills, so be sure to check the challenge description for more information.
+## Overview
 
-If you need help or have any questions, feel free to [join our community](https://github.com/orgs/devchallenges-io/discussions) and ask for support.
+This repository contains a lightweight FAQ page built to satisfy the layout and responsiveness requirements of the [Simple FAQ challenge](https://devchallenges.io/challenge/simple-faq-challenge).
 
-## Where to find everything
+The development process began by crafting a clean semantic HTML structure with two question blocks. Once the markup was in place, I layered on CSS to reproduce the reference design, paying special attention to spacing and typography. A mobile‑first mindset guided the styling: I started with narrow viewports and then used fluid units, `clamp()`, and media‑agnostic flexbox rules to scale gracefully up to desktop widths.
 
-Your goal is to build the project using the provided design. You can find the designs in the challenge editor once you start the challenge or in the `/design` folder. Please note that the `/design` folder may not include all the designs you need, so be sure to check the editor for more details.
+![screenshot](./webpage-screenshot.png)
 
-The designs are in JPG format, so you'll need to use your best judgment for styles such as `font-size`, `padding`, and `margin`. Additionally, spacing guides are available for each challenge, but access to them requires a [Pro membership](https://devchallenges.io/pro). With a Pro membership, you can also download the Figma design files.
 
-All the required assets can be found in the `/resources` folder. You may need to optimize the assets as necessary.
+### What I learned
 
-For more information about the challenge, access the challenge editor on [devChallenges.io](https://devchallenges.io/challenges-dashboard).
+Working through the challenge reinforced best practices for responsive design without relying on JavaScript. Key takeaways included:
 
-## Steps to Complete the Challenge on devChallenges.io
+- How to use `clamp()` effectively to create fluid typography that adapts between a minimum and maximum size based on viewport width.
+- Structuring CSS with custom properties to make theme adjustments easier.
+- The advantages of a mobile‑first workflow: start small and rely on natural browser scaling instead of over‑engineering media queries.
 
-- [ ] Start by visiting [devChallenges.io](https://devchallenges.io/), navigate to the challenge page, and begin the challenge.
-- [ ] Once you have started the challenge, you will have access to the editor where you can download the necessary resources, check colors, fonts, and more.
-- [ ] Download the starter/resources, and if you are a Pro user, you can also download the Figma file.
-- [ ] Initialize the project as a Git repository.
-- [ ] Review the design and analyze the different versions for desktop, tablet, and mobile.
-- [ ] Plan your approach to the project by identifying reusable CSS classes and structuring your HTML content.
-- [ ] Define the base styles for your project, including font-family, font-size, and other general content styles.
-- [ ] Begin adding styles from the top of the page and work your way down, ensuring that each section is visually appealing and matches the provided design.
-- [ ] Optimize and resize the required assets from the `/resources` folder as necessary.
-- [ ] Test your project's responsiveness by previewing it on different devices and screen sizes.
-- [ ] Once you are satisfied with your implementation, deploy your project to a hosting platform such as GitHub Pages, Vercel, or Netlify.
-- [ ] Submit your solution on devchallenges.io and aim to pass the design comparison and performance tests.
-- [ ] Replace the default `README.md` file with a custom one that explains your project and reflects on your learning experience. You can use the provided `README-template.md` as a starting point.
-- [ ] Share your solution with the devChallenges.io community by tweeting [@devchallengesio](https://twitter.com/devchallengesio) and mentioning the repository and live URLs in your tweet. You can also share your solution on other social channels or write a blog post about your experience.
-- [ ] Seek feedback from the community by using the provided templates or asking specific questions about your implementation.
+I also gained confidence in writing vanilla HTML and CSS that looks polished across a wide range of device sizes.
 
-Good luck and enjoy building your project! 🚀
+### Built with
 
-## Deploying your project
+This project was developed using the following core technologies and techniques:
 
-Our recommended hosting options include:
+- **HTML5** for semantic markup, ensuring accessibility and structure.
+- **CSS3** with custom properties (variables) to maintain consistent styling.
+- **Flexbox** layout for vertical centering and flexible main content area.
+- **Responsive typography** using `clamp()` to scale headings based on viewport width.
+- **Mobile‑friendly meta tags** (`viewport`) for proper scaling on devices.
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+The challenge did not require a JavaScript framework, so the site is built with vanilla HTML and CSS only.
 
-You can choose any of these solutions or explore other trusted providers. For more information, please refer to our guide on [free hosting platforms](https://devchallenges.io/learn/1-fundamentals/free-hosting-for-web-projects).
+## Features
 
-## Create your own `README.md`
+- **Semantic markup:** all headings and lists follow HTML5 semantics for accessibility.
+- **Responsive layout:** content adapts to phones, tablets, and desktops using flexible units and a mobile‑first design.
+- **Custom fonts:** embedded local `Inter` font files for consistent typography.
+- **Clean, minimal CSS:** no frameworks, just vanilla CSS with custom properties for easy theming.
 
-To use the Readme template, follow these steps:
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
-1. Open the `README-template.md` file in your text editor.
-2. Replace the placeholder content with your own project information.
-3. Customize the sections and headings to fit your project's needs.
-4. Add a detailed description of your project, including its purpose and features.
-5. Reflect on your learning experience and any challenges you encountered during development.
-6. Delete the original `README.md` file.
-7. Rename the `README-template.md` file to `README.md`.
-8. Save the changes and commit the updated `README.md` file to your repository.
+## Author
 
-By following these instructions, you can create a customized `README.md` file that effectively communicates your project to others.
-
-## More guides
-
-Don't forget to check out the [devChallenges Curriculum](https://devchallenges.io/learn), which covers basic to advanced topics that are essential for your web development journey.
-
-## Sharing your solution
-
-There are several platforms where you can share your solution:
-
-1.  Tweet [@devchallengesio](https://x.com/devchallengesio) and mention **@devchallengesio**, including the repository and live URLs in your tweet. We would love to see what you have built and help spread the word.
-2.  Share your solution on other social channels such as LinkedIn and tag [devchallenges](https://www.linkedin.com/company/devchallenges).
-3.  Write a blog post about your experience building the project. Documenting your workflow, technical choices, and explaining your code is an excellent way to reinforce your learning. Popular platforms for writing include [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you have submitted it on the platform. Feel free to edit them and include specific questions when seeking feedback.
-
-The more specific your questions are, the more likely it is that another community member will provide feedback.
-
-## Feedback
-
-We value feedback and are always looking to improve our challenges and platform. If you have any suggestions or comments, please email us at hi\[at]devchallenges\[dot]io.
-
-This challenge is completely free. Please share it with anyone who would find it useful for practice.
-
-**Enjoy building!** 🚀
+- GitHub [@Sebascode20](https://github.com/Sebascode20)
