@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://sebascode20.github.io/Simple-Frequently-Asked-Questions-FAQ-/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://github.com/Sebascode20/Simple-Frequently-Asked-Questions-FAQ-?tab=readme-ov-file#what-i-learned">
       Solution
     </a>
     <span> | </span>
